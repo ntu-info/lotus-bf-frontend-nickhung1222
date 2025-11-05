@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/lotus-bf-frontend-nickhung1222/',
-
+  base: './',
   plugins: [react()],
   resolve: {
     alias: {
@@ -16,4 +15,3 @@ export default defineConfig({
     allowedHosts: ['mil.psy.ntu.edu.tw']
   }
 })
-
